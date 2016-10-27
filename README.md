@@ -3,6 +3,9 @@ A shiny app to perform clustering on protein Molecular Dynamics (MD) trajectorie
 
 If you are interested in the science of this app and want to use it but don't understand how, contact me and I will provide a video-demo. If you know what clustering on protein MD trajectories is, then after running this app, using it should be straight forward. You will find additional explanatory tips within each step of the app. You do not need to worry about memory overheads in case your dcd files are use. They will be read frame by frame.
 
+Acknowledgements:
+Includes code from the bio3d package implememnted by B. Grant for reading the binary dcd files.
+
 =================== TECHNICALITIES =================================================
 
 DEPENDENCIES:
