@@ -22,7 +22,7 @@ R packages
 (You can check which version of R you got by typing sessionInfo() from within R. That way you also get the respective info for all the packages you have loaded in the current R session. If newer R or package versions give you trouble, contact me)
 
 HOW TO RUN IT:
-Open the ui.R funstion with Rstudio and press the Run App button (or type runApp() in the R terminal below). Make sure you use the app within Rstudio to have all the features working properly!!
+Make sure you have all the provided files in a separate folder (the www/ folder, with its current content, is needed as well). Open the ui.R funstion with Rstudio and press the Run App button (or type runApp() in the R terminal below). Make sure you use the app within Rstudio to have all the features working properly!!
 
 NOTES
 Known issue 1: The browse button, in the first tab of the app, works only within Rstudio. Outside Rstudio you will have to type the path to the files explicitly in the file text windows (i.e. when browsing for dcd and pdb files). The reason for the problem is that the code needs only the path for the trajectory file in order to read it and perform the clustering step by step (dcd files are typically huge). However, the current "file upload" options available in shiny directly load the whole files into memory, which is not an option here. As a workaround we use the function "file.choose", in r-base, to browse to the location of the file. The "file.choose" function works with a browse button only when used with Rstudio. Outside Rstudio paths should be given explicitly.  
