@@ -1,6 +1,9 @@
 # ProteinleaderClustering
 A shiny app to perform clustering on protein Molecular Dynamics (MD) trajectories 
 
+This code was written in the context of a collaboration with Dr. Fabio Sterpone, LBT/IBPC, CNRS, Paris (France) 
+https://sites.google.com/site/sterponefabio/
+
 If you are interested in the science of this app, want to use it but don't understand how, contact me and I will provide a video-demo. If you know what clustering on protein MD trajectories is, then using the app should be straight forward. You will find additional explanatory tips within each step of the app. You do not need to worry about memory overheads in case your trajectory files are huge (they will be read frame by frame).
 
 It currently analyzes dcd trajectory files. Xtc option will be available in the future (see below for converting xtc to dcd)
