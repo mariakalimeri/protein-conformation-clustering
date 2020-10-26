@@ -1,4 +1,4 @@
-convert2kineticMembershipVector <- function(initialMem){
+convert_to_kinetic_membership_vector <- function(initialMem){
     # This script reads the original membershipVector and the file created by mcl
     # algorithm and converts the initial trajectory to the CG trajectory.
     # The mcl output has been save from before with a standard title.

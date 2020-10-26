@@ -1,4 +1,4 @@
-file.choose2 <- function(...) {
+file_choose2 <- function(...) {
     pathname <- NULL;
     tryCatch({
         pathname <- file.choose();
